@@ -1,4 +1,4 @@
-package com.example.buscacep.domain.entity;
+package com.example.buscacep.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

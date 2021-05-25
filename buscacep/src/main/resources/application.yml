@@ -18,6 +18,13 @@ management:
    enabled: false
   prometheus:
    enabled: true
+  logfile:
+   external-file: logs/client.log
+
+logging:
+ file:
+  name: logs/client.log
+
 
 external-client:
  uri:  http://viacep.com.br/ws
