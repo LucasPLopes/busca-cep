@@ -1,4 +1,6 @@
 spring:
+ jmx:
+   enabled: true
  boot: 
   admin:
    client:
@@ -15,7 +17,7 @@ management:
     enabled: true
  endpoint:
   metrics:
-   enabled: false
+   enabled: true
   prometheus:
    enabled: true
   logfile:
