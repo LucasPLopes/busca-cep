@@ -32,12 +32,21 @@ A estrutura de pastas para o microserviço **buscacep** tende adotar uma arquite
 cd ../adminserver
 ./mvnw
 ```
+Abrir [Admin server](http://localhost:8081):
+
+![Admin Server](./imagens/admin-1.png "Admin Server")
+![Admin Server](./imagens/admin-2.png "Admin Server")
+![Admin Server](./imagens/admin-3.png "Admin Server")
 
 ### Busca CEP
 ```shell
 cd ../buscacep
 ./mvnw
 ```
+Abrir [Busca CEP](http://localhost:8080/swagger-ui):
+
+![Busca CEP](./imagens/swagger.png "Busca CEP")
+
 
 ## Testes
 
@@ -48,4 +57,6 @@ cd ../buscacep
 ```
 
 
-![Alt text](relative/path/to/img.jpg?raw=true "Title")
+## Copyright
+
+Released under the Apache License 2.0. See the [LICENSE](https://github.com/LucasPLopes/busca-cep/blob/master/LICENSE) file.
